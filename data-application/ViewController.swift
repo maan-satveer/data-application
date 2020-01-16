@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         let title = textfield[0].text ?? ""
           let author = textfield[1].text ?? ""
            let pages = Int(textfield[2].text ?? "0") ?? 0
-           let year = Int(textfield[0].text ?? "2020") ?? 2020
+           let year = Int(textfield[3].text ?? "2020") ?? 2020
         let book = Book(title: title, author: author, pages: pages, year: year)
         books?.append(book)
         for textfield in textfield{
